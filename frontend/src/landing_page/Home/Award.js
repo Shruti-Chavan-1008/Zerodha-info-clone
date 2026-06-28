@@ -2,7 +2,18 @@ import React from 'react';
 
 function Award() {
     return ( 
-        <h1>Awards</h1>
+         <div class='row'>
+            <div class='col-2'></div>
+            <div class='col' style={{ display: 'flex', gap: '100px' }}>
+                <div>
+
+                </div>
+                <div>
+                    
+                </div>
+            </div>
+            <div class='col-2'></div>
+         </div>
      );
 }
 
