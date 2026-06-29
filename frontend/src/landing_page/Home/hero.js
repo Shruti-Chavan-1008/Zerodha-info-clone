@@ -5,6 +5,7 @@ function Hero() {
     <div class="row">
       <div class="col-2"></div>
       <div class="col justify-content-center p-3">
+        <div>
         <img
           src=" /images/homeHero.png"
           style={{
@@ -13,10 +14,12 @@ function Hero() {
             marginTop: "20px",
             marginRight:"20px",
             marginBottom:"20px"
-          }}/>
+          }}/></div>
+          <div style={{marginTop:"50px"}}> 
           <h3   style={{ textAlign: 'center' }}>Invest in everything</h3>
           <p style={{ textAlign: 'center' }}> Online platfrom to invest in Stock, Derivation,mutual fund,More</p>
           <button type="button"   class="btn btn-primary"   style={{ display: 'block', margin: '0 auto' }}>SingUp Now</button>
+          </div>
       </div>
       <div class="col-2"></div>
     </div>
