@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Pricing() {
     return (   
@@ -8,7 +9,7 @@ function Pricing() {
             <div>
                 <h3>Unbetable Pricing</h3>
                   <p> we pioneered the concept of discount broking and price transperency in india , flat fees on hidden charges</p>
-                <a herf="#">See More</a>
+                <Link herf="#">See More</Link>
             </div>
             <div style={{ display: 'flex', border: '1px soild black', width:'600px'  }} >
                <div   style={{border: '1px solid black'}}   >
