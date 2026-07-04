@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-function Pricing() {
+function Price() {
     return (   
          <div class='row 'style={{ marginTop:"200px" }}>
          <div class='col-2'></div>
@@ -27,4 +27,4 @@ function Pricing() {
     );
 }
 
-export default Pricing;
+export default Price;
